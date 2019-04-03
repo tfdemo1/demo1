@@ -1,0 +1,146 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User account creation",
+        "description": "",
+        "id": "user-account;user-account-creation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User is on main page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User click register link",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "fill are required data",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "confirm registration",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "User account is created",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "User can log in to the system using it",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "User Account",
+    "description": "",
+    "id": "user-account",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/CreateUser.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User login verification",
+        "description": "",
+        "id": "login-option;user-login-verification",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8098878810,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the main page",
+            "match": {
+              "location": "StepDefinitions.user_is_on_the_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 274359497,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User types username and password",
+            "match": {
+              "location": "StepDefinitions.user_types_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1100223631,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Clicks Log In button",
+            "match": {
+              "location": "StepDefinitions.clicks_Log_In_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72439004,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User will be logged into his account",
+            "match": {
+              "location": "StepDefinitions.user_will_be_logged_into_his_account()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login option",
+    "description": "",
+    "id": "login-option",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]

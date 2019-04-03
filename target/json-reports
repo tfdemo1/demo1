@@ -1,0 +1,299 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 268145531,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user types username \"stefan10\" and password \"stefan10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "stefan10",
+                  "offset": 21
+                },
+                {
+                  "val": "stefan10",
+                  "offset": 45
+                }
+              ],
+              "location": "StepDefinitions.user_types_username_something_and_password_something(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 910196550,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "he clicks Log In button",
+            "match": {
+              "location": "StepDefinitions.he_clicks_Log_In_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62930846,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user will be logged into his account",
+            "match": {
+              "location": "StepDefinitions.user_will_be_logged_into_his_account()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8394094197,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openParabankPage()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "New bank account creation",
+        "description": "",
+        "id": "operations-on-the-bank-account;new-bank-account-creation",
+        "after": [
+          {
+            "result": {
+              "duration": 602088368,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 762854251,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks Open New Account",
+            "match": {
+              "location": "StepDefinitions.user_clicks_open_new_account()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 117529798,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Open New Account window is displayed he selects type of account \"SAVINGS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SAVINGS",
+                  "offset": 65
+                }
+              ],
+              "location": "StepDefinitions.open_new_account_window_is_displayed_he_selects_type_of_account_something(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 136785995,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user submits creation",
+            "match": {
+              "location": "StepDefinitions.user_submits_creation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 280889321,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "new bank account is opened",
+            "match": {
+              "location": "StepDefinitions.new_bank_account_is_opened()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SanityTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 217404219,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user types username \"stefan10\" and password \"stefan10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "stefan10",
+                  "offset": 21
+                },
+                {
+                  "val": "stefan10",
+                  "offset": 45
+                }
+              ],
+              "location": "StepDefinitions.user_types_username_something_and_password_something(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 844261807,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "he clicks Log In button",
+            "match": {
+              "location": "StepDefinitions.he_clicks_Log_In_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54505413,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user will be logged into his account",
+            "match": {
+              "location": "StepDefinitions.user_will_be_logged_into_his_account()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6362485185,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openParabankPage()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Check find transaction option using date",
+        "description": "",
+        "id": "operations-on-the-bank-account;check-find-transaction-option-using-date",
+        "after": [
+          {
+            "result": {
+              "duration": 602612676,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 538768189,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user clicks Find Transactions",
+            "match": {
+              "location": "StepDefinitions.user_clicks_find_transactions()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 103595034,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "he set today date",
+            "match": {
+              "location": "StepDefinitions.he_set_today_date()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59014130,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "clicks Find Transactions",
+            "match": {
+              "location": "StepDefinitions.clicks_find_transactions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13627481,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "transaction results are displayed",
+            "match": {
+              "location": "StepDefinitions.transaction_results_are_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegTest"
+          }
+        ]
+      }
+    ],
+    "name": "Operations on the bank account",
+    "description": "",
+    "id": "operations-on-the-bank-account",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/03.Operations.feature",
+    "tags": []
+  }
+]

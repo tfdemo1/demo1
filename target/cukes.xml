@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="20.334442">
+    <testcase classname="Operations on the bank account" name="New bank account creation" time="11.537973">
+        <system-out>
+            <![CDATA[Given user types username "stefan10" and password "stefan10"................passed
+When he clicks Log In button................................................passed
+Then user will be logged into his account...................................passed
+Given user clicks Open New Account..........................................passed
+When Open New Account window is displayed he selects type of account "SAVINGS".passed
+And user submits creation...................................................passed
+Then new bank account is opened.............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Operations on the bank account" name="Check find transaction option using date" time="8.796469">
+        <system-out>
+            <![CDATA[Given user types username "stefan10" and password "stefan10"................passed
+When he clicks Log In button................................................passed
+Then user will be logged into his account...................................passed
+Given user clicks Find Transactions.........................................passed
+When he set today date......................................................passed
+And clicks Find Transactions................................................passed
+Then transaction results are displayed......................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
