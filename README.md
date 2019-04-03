@@ -28,9 +28,9 @@ This is just sample test automation project on testing WWW. For this puropse Sel
 
 ## Running the tests
 
-- run TestRunner class using IntelliJ tool
-or
-- run "mvn clean test –PALL" command inside project folder using CMD 
+- 1 option: run TestRunner class using IntelliJ tool
+
+- 2 option: run "mvn clean test –PALL" command inside project folder using CMD 
 
 
 ## Built With
