@@ -15,7 +15,7 @@ public class OpenNewAccountPage {
 
     private SelenideElement accountCreationConfirmation = $(By.xpath("//p[contains(text(),'Congratulations, your account is now open.')]"));
 
-    public OpenNewAccountPage setAccountType(String accType) throws InterruptedException {
+    public OpenNewAccountPage setAccountType(String accType)  {
 
 
         accountType.waitUntil(Condition.visible, 20000, 4).selectOptionContainingText(accType);
