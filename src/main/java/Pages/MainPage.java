@@ -30,14 +30,14 @@ public class MainPage {
     }
 
     public RegistrationPage clickRegisterBtn() {
+
         regBtn.waitUntil(Condition.visible, 20000, 5).click();
         return new RegistrationPage();
     }
 
     public MainPage errorLoginVerification() {
+
         error.shouldHave(text("The username and password could not be verified."));
-
-
         return this;
     }
 

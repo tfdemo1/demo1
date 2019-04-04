@@ -24,7 +24,6 @@ public class FindTransactionsPage {
         return this;
     }
 
-
     public TransactionResults clickFindTrans() {
         findBtn.get(1).click();
         return new TransactionResults();
