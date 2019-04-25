@@ -5,7 +5,7 @@ My sample WWW automation project - [Test Page](http://parabank.parasoft.com)
 
 ## Introduction
 
-This is just sample test automation project on testing WWW. For this puropse Selenide and Cucumber frameworsk have been used and some other tools described in "Build With" section. Project contains some sample features and related test cases such us user registration, login into user account  and some basic operations. 
+This is just sample test automation project on testing WWW. For this puropse Selenide and Cucumber frameworks have been used and some other tools described in "Build With" section. Project contains some sample features and related test cases such us user registration, login into user account  and some basic operations. 
 
 
 ### Prerequisites
@@ -41,6 +41,7 @@ This is just sample test automation project on testing WWW. For this puropse Sel
 * [Maven surfire plugin](https://maven.apache.org/surefire/maven-surefire-plugin/index.html) - plugin for tests execution
 * [TestNG](https://testng.org/doc/index.html) - automation testing framework supporting tests execution
 * [WebDriverManager](https://github.com/bonigarcia/webdrivermanager) - solution for using WebDriver binaries easier
+* [Jexcelapi](http://jexcelapi.sourceforge.net/) - solution for using test data as input xls file
 
 
 ## Author
